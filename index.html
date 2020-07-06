@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html spellcheck="false">
+
+<head>
+	<meta charset="utf-8">
+	<title>Parity</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+	<link href="parity.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="Game">
+		<div id="BoardBox"></div>
+		<div id="StepBox">
+			<div id="Step" data-cell="0" data-chess="0">
+				<div class="chess"></div>
+			</div>
+		</div>
+		<div id="MessageBox">
+			<div id="Message">Welcome!</div>
+		</div>
+		<div id="MenuBox">
+			<fieldset id="Menu" disabled>
+				Start:<br>
+				<input type="radio" id="Player1" name="player" value="1">
+				<label for="Player1">Red</label><br>
+				<input type="radio" id="Player2" name="player" value="2">
+				<label for="Player2">Blue</label><br>
+				<br>
+				AI:<br>
+				<input type="checkbox" id="Ai1" name="ai" value="1">
+				<label for="Ai1">Red</label><br>
+				<input type="checkbox" id="Ai2" name="ai" value="2">
+				<label for="Ai2">Blue</label><br>
+				Level:<br>
+				<input type="range" id="Level" name="level" min="0" max="5"><br>
+				<br>
+				<button type="button" id="Board">Change Board</button><br>
+				<button type="button" id="Start">Start Game</button><br>
+			</fieldset>
+		</div>
+	</div>
+	<script src="parity.js"></script>
+</body>
+
+</html>
