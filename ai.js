@@ -186,10 +186,6 @@ self.onmessage = function (ev) {
 	setTimeout(ai[data.action], 100, ...data.value);
 };
 
-ai.setBoard = function (b) {
-	boardW = b;
-};
-
 ai.startGame = function (bW, r, cA, cB, lv) {
 	boardW = bW;
 	aiState = new State(r, cA, cB);
