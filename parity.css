@@ -133,11 +133,11 @@ div {
 	border-radius: 50%;
 }
 [data-chess="1"]>.chess {
-	background: #F00;
+	background: #F33;
 	opacity: 1;
 }
 [data-chess="2"]>.chess {
-	background: #06F;
+	background: #36F;
 	opacity: 1;
 }
 
