@@ -133,7 +133,7 @@ div {
 	border-radius: 50%;
 }
 [data-chess="1"]>.chess {
-	background: #F33;
+	background: #E22;
 	opacity: 1;
 }
 [data-chess="2"]>.chess {
